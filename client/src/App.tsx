@@ -1,9 +1,9 @@
-import Test from 'src/components/Test.tsx'
 import { FC } from "react"
+import AppRouter from 'src/router/router.tsx'
 
 const App: FC = () => {
   return (
-    <Test />
+    <AppRouter />
   )
 }
 
