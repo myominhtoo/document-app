@@ -4,9 +4,9 @@ import {
     Routes,
     Route
 } from 'react-router-dom'
-import { Redirect } from 'src/components/index.ts'
+import Redirect from 'src/components/Redirect.tsx'
 import { routes } from 'src/constants/index.ts'
-import { DocumentPage } from 'src/pages/index.ts'
+import DocumentPage from 'src/pages/document/DocumentPage.tsx'
 import { v4 as uuIdV4 } from 'uuid'
 
 const AppRouter: FC = () => {
